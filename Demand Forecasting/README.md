@@ -94,7 +94,7 @@ Ngoài file CSV input, bạn cần có sẵn:
 
 ### 1. Models (10 files)
 ```
-models/
+weight/
 ├── model_fold_0.txt
 ├── model_fold_1.txt
 ├── model_fold_2.txt
@@ -121,7 +121,7 @@ encoders/
 
 ### 3. Config (optional)
 ```
-models/config.json
+weight/config.json
 ```
 
 **Giải thích:** Cấu hình model (không bắt buộc).
@@ -241,7 +241,7 @@ Model dự đoán:
 ### Input (Bạn cần chuẩn bị):
 - ✅ 1 file CSV với 8 cột thông tin cơ bản
 - ✅ Format tuần: DD/MM/YY (ví dụ: 16/07/13)
-- ✅ Có sẵn folder `models/` (10 files)
+- ✅ Có sẵn folder `weight/` (10 files)
 - ✅ Có sẵn folder `encoders/` (3 files)
 
 ### Output (Bạn nhận được):
